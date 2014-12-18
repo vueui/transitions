@@ -1,0 +1,32 @@
+{
+    "name": "vueui-transitions",
+    "version": "0.1.0",
+    "description": "Use Semantic-UI transitions as v-transition in Vue.js",
+    "main": "index.js",
+    "devDependencies": {
+        "vue": "0.11.x",
+        "domready": "1.x.x",
+        "webpack": "^1.4.10",
+        "html-webpack-plugin": "^1.1.0",
+        "css-loader": "^0.9.0",
+        "style-loader": "^0.8.1",
+        "jade-html-loader": "0.0.2",
+        "html-loader": "^0.2.3",
+        "jade": "^1.7.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com:vueui/transitions.git"
+    },
+    "bugs": {
+        "url": "https://github.com/vueui/transitions/issues"
+    },
+    "keywords": [
+        "Vue-UI",
+        "plugin",
+        "Vue.js",
+        "transitions"
+    ],
+    "author": "Agon Bina <agon_bina@hotmail.com>",
+    "license": "MIT"
+}
