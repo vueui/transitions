@@ -13,10 +13,21 @@
 </head>
 <body>
 
-    <div id="app"></div>
+    <div id="app">
+        <div class="ui raised segment">
+            <div v-show="showPage" v-transition="fade">
+                <h1>This is the demo page</h1>
+            </div>
+
+            <div class="ui celled ordered list">
+                <div class="item" v-repeat="players" v-transition="drop">{{$value}}</div>
+                <div class="item" v-repeat="teams" v-transition="scale">{{$value}}</div>
+            </div>
+        </div>
+    </div>
 
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/1.2.0/semantic.js"></script>
-    <script src="//localhost:9000/build/build.js"></script>
+    <script src="/build/build.js"></script>
 </body>
 </html>
